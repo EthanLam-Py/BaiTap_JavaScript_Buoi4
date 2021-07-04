@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai Tap JavaScript Buoi 4</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="question1">
+        <h1>Câu 1</h1>
+        <div class="question1__input">
+            <label>Số Nguyên Thứ 1</label>
+            <input type="number" id='first_int'>
+
+            <label>Số Nguyên Thứ 2</label>
+            <input type="number" id='second_int'>
+
+            <label>Số Nguyên Thứ 3</label>
+            <input type="number" id='third_int'>
+
+            <button id='question1__btn'>Sắp Xếp</button>
+
+        </div>
+
+        <div class="question1__result" id='question1__result'>
+            <span>Dãy số sắp xếp từ nhỏ đến lớn:</span>
+            <span id ='question1__resultspan' ></span>
+        </div>
+        
+    </div>
+    
+    <div class="question2">
+        <h1>Câu 2</h1>
+        <div class="question2__input">
+            <label>Tên</label>
+            <input type="text" id='name'>
+            <div class="quanHe">
+                
+                <input type="radio" name="quanHe" id="ba" value="ba">
+                <label for="ba">Ba</label>
+                
+                <input type="radio" name="quanHe" id="me" value="mẹ">
+                <label for="me">Mẹ</label>
+                
+                <input type="radio" name="quanHe" id="anhTrai" value="anh trai">
+                <label for="anhTrai">Anh Trai</label>
+                
+                <input type="radio" name="quanHe" id="emGai" value="em gái">
+                <label for="emGai">Em Gái</label>
+            </div>
+            
+            <button id='question2__btn'>Login</button>
+
+        </div>
+        <div class="question2__result" id='question2__result' >
+            <span id='question2__resultspan'></span>
+        </div>
+    </div>
+
+    <div class="question3">
+        <h1>Câu 3</h1>
+        <div class="question3__input">
+            <label>Số Nguyên Thứ 1</label>
+            <input type="number" id='first'>
+
+            <label>Số Nguyên Thứ 2</label>
+            <input type="number" id='second'>
+
+            <label>Số Nguyên Thứ 3</label>
+            <input type="number" id='third'>
+
+            <button id='question3__btn'>Tìm Số Chẵn Lẻ</button>
+        </div>
+
+        <div class="question3__result" id='question3__result'>
+            <p>Số Chẵn: </p>
+            <span id ='question3__even' ></span>
+            <p>Số Lẻ: </p>
+            <span id ='question3__odd' ></span>
+        </div>
+
+    </div>
+
+    <div class="question4">
+        <h1>Câu 4</h1>
+        <div class="question4__input">
+            <label>cạnh a</label>
+            <input type="number" id='a'>
+
+            <label>cạnh b</label>
+            <input type="number" id='b'>
+
+            <label>cạnh c</label>
+            <input type="number" id='c'>
+
+            <button id='question4__btn'>Tìm Loại Tam Giác</button>
+        </div>
+        
+        <div class="question4__result" id='question4__result'>
+            <span>Đây là tam giác: </span>
+            <span id ='question4__resultspan'></span>
+
+        </div>
+
+    </div>
+
+
+
+
+    <script src="main.js"></script>
+
+    <script>
+        document.getElementById('question1__btn').addEventListener('click', sapXep)
+        
+        document.getElementById('question2__btn').addEventListener('click', Chao)
+
+        document.getElementById('question3__btn').addEventListener('click', timSo)
+
+        document.getElementById('question4__btn').addEventListener('click', timTamGiac)
+    </script>
+
+</body>
+</html>

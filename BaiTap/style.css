@@ -1,0 +1,79 @@
+/* Question 1 */
+.question1__input{
+    display: flex;
+    flex-direction: column;
+
+    width: 10%;
+}
+.question1__input button{
+    margin: 20px 0px;
+}
+.question1__result{
+    display: none;
+}
+
+/* Question 2 */
+.question2{
+    margin-top: 50px;
+}
+.question2__input{
+    display: flex;
+    flex-direction: column;
+
+    width: 20%;
+}
+.question2__input .quanHe label{
+    margin-right: 10px;
+}
+
+.question2__input button{
+    margin: 20px 0px;
+    width: 30%;
+}
+.question2__result{
+    display: none;
+}
+
+/* Question 3 */
+.question3{
+    margin-top: 50px;
+}
+.question3__input{
+    display: flex;
+    flex-direction: column;
+
+    width: 20%;
+}
+.question3__input .quanHe label{
+    margin-right: 10px;
+}
+
+.question3__input button{
+    margin: 20px 0px;
+    width: 50%;
+}
+.question3__result{
+    display: none;
+}
+
+/* Question 4 */
+.question4{
+    margin-top: 50px;
+}
+.question4__input{
+    display: flex;
+    flex-direction: column;
+
+    width: 20%;
+}
+.question4__input .quanHe label{
+    margin-right: 10px;
+}
+
+.question4__input button{
+    margin: 20px 0px;
+    width: 50%;
+}
+.question4__result{
+    display: none;
+}
